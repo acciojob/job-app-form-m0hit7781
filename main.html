@@ -11,39 +11,30 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<form method="post">
-  <label for="name">Name</label>
-  <input required id="name" type="text" id="name" name="name" required><br><br>
-  
-  <label for="email">Email</label>
-  <input required id="email" type="email" id="email" name="email" required><br><br>
-  
-  <label for="gender">Gender</label><br>
-  <input required  type="radio" id="gender" name="gender" value="male" required>Male
-  
-  <input required type="radio" id="gender" name="gender" value="female">Female<br><br>
-  
-  
-  <label for="laptop">Laptop Brands</label>
-  <select id="laptop">
-    <option value="Apple">Apple</option>
-    <option value="Asus">Asus</option>
-    <option value="HP">HP</option>
-  </select><br><br>
-		
-  <label for="age">Age</label>
-  <input required id="age" type="number" id="age" name="age" required><br><br>
-  
-  <label for="dob">DOB</label>
-  <input required id="dob" type="date" id="dob" name="dob" required><br><br>
-  
-  <label for="password">Password</label>
-  <input required id="password" type="password" id="password" name="password" required><br><br>
-  
-  <label for="portfolio">Portfolio</label>
-  <input type="text" id="portfolio" name="portfolio"><br><br>
-  
-  <input type="submit" value="Submit">
-</form>
+		<label for="portfolio">Portfolio</label>
+        <input type="url" name="portfolio" id="portfolio">
+		<label for="name">Name</label>
+        <input type="text" required id="name">
+		<label for="email">Email</label>
+        <input type="email" required id="email">
+		<label for="gender">Gender</label>
+        <input type="radio" name="gender" required id="gender">Male
+        <input type="radio" name="gender" required id="gender">Female
+		<label for="laptop" >Laptop Brands</label>
+		<select id="laptop">
+              <option value="volvo">Apple</option>
+              <option value="saab">Asus</option>
+              <option value="mercedes">HP</option>
+            </select>
+		<label for="age" >age</label>
+        <input type="age" required id="age">
+		<label for="dob">DOB</label>
+        <input type="date" required id="dob" >
+		<label for="password">Password</label>
+        <input type="password" required id="password">
+		<label for="submit">submit</label>
+        <button type="submit">Submit</button>
+	</form>
 
 </body>
 
